@@ -24,24 +24,24 @@
  * THE SOFTWARE.
  */
 
-define('MODULE_PAYMENT_BITPAY_STATUS_TITLE', 'BitPay modul aktivieren');
+define('MODULE_PAYMENT_BITPAY_STATUS_TITLE', 'GloBee modul aktivieren');
 define('MODULE_PAYMENT_BITPAY_STATUS_DESC', 'Wollen Sie Bitcoin akzeptieren wollen?');
 define('MODULE_PAYMENT_BITPAY_NETWORK_TITLE', 'Network');
-define('MODULE_PAYMENT_BITPAY_NETWORK_DESC', 'Select whether using an API key from bitpay.com or test.bitpay.com');
+define('MODULE_PAYMENT_BITPAY_NETWORK_DESC', 'Select whether using an API key from globee.com or test.globee.com');
 define('MODULE_PAYMENT_BITPAY_APIKEY_TITLE', 'API Schlüssel');
-define('MODULE_PAYMENT_BITPAY_APIKEY_DESC', 'Geben Sie Ihre bitpay.com API Schlüssel hier');
+define('MODULE_PAYMENT_BITPAY_APIKEY_DESC', 'Geben Sie Ihre globee.com API Schlüssel hier');
 define('MODULE_PAYMENT_BITPAY_TRANSACTION_SPEED_TITLE', 'Transaktionsgeschwindigkeit');
-define('MODULE_PAYMENT_BITPAY_TRANSACTION_SPEED_DESC', 'Wählen Sie eine Transaktionsgeschwindigkeit hier. Verwenden niedriger Geschwindigkeit für hochwertige Produkte und verwenden Hochgeschwindigkeits für geringwertige Wirtschaftsgüter. Für weitere Informationen gehen Sie zu bitpay.com');
+define('MODULE_PAYMENT_BITPAY_TRANSACTION_SPEED_DESC', 'Wählen Sie eine Transaktionsgeschwindigkeit hier. Verwenden niedriger Geschwindigkeit für hochwertige Produkte und verwenden Hochgeschwindigkeits für geringwertige Wirtschaftsgüter. Für weitere Informationen gehen Sie zu globee.com');
 define('MODULE_PAYMENT_BITPAY_UNPAID_STATUS_ID_TITLE', 'unbezahlte Status-ID');
 define('MODULE_PAYMENT_BITPAY_UNPAID_STATUS_ID_DESC', '');
 define('MODULE_PAYMENT_BITPAY_PAID_STATUS_ID_TITLE', 'bezahlte Status-ID');
 define('MODULE_PAYMENT_BITPAY_PAID_STATUS_ID_DESC', '');
 define('MODULE_PAYMENT_BITPAY_CURRENCIES_TITLE', 'akzeptierten Währungen');
-define('MODULE_PAYMENT_BITPAY_CURRENCIES_DESC', 'Währungen BitPay akzeptiert');
+define('MODULE_PAYMENT_BITPAY_CURRENCIES_DESC', 'Währungen GloBee akzeptiert');
 define('MODULE_PAYMENT_BITPAY_SORT_ORDER_TITLE', 'Sortierung der Anzeige');
 define('MODULE_PAYMENT_BITPAY_SORT_ORDER_DESC', 'Sortierung der Anzeige. Niedrigste zuerst angezeigt');
 define('MODULE_PAYMENT_BITPAY_ZONE_TITLE', 'Zahlungsraum');
 define('MODULE_PAYMENT_BITPAY_ZONE_DESC', 'Wenn eine Zone ausgewählt ist, werden nur diese Zahlungsmethode für diese Zone zu ermöglichen.');
-define('MODULE_PAYMENT_BITPAY_TEXT_TITLE', 'Bitcoins über bitpay.com');
-define('MODULE_PAYMENT_BITPAY_TEXT_DESC', 'Verwenden bitpay.com \'s Rechnungsverarbeitung Server automatisch akzeptieren Bitcoins.');
+define('MODULE_PAYMENT_BITPAY_TEXT_TITLE', 'Bitcoins über globee.com');
+define('MODULE_PAYMENT_BITPAY_TEXT_DESC', 'Verwenden globee.com \'s Rechnungsverarbeitung Server automatisch akzeptieren Bitcoins.');
 ?>

@@ -110,7 +110,7 @@ function bpCreateInvoice($orderId, $price, $posData, $options = array()) {
 			$post[$o] = $options[$o];
 	$post = json_encode($post);
 	$network = (MODULE_PAYMENT_BITPAY_NETWORK == 'Test') ? 'test.' : '';
-	$response = bpCurl('https://'.$network.'bitpay.com/api/invoice/', $options['apiKey'], $post);
+	$response = bpCurl('https://'.$network.'globee.com/api/invoice/', $options['apiKey'], $post);
 	
 	return $response;
 }
@@ -153,7 +153,7 @@ function bpGetInvoice($invoiceId, $apiKey=false) {
 		$apiKey = $bpOptions['apiKey'];		
 
 	$network = (MODULE_PAYMENT_BITPAY_NETWORK == 'Test') ? 'test.' : '';
-	$response = bpCurl('https://'.$network.'bitpay.com/api/invoice/'.$invoiceId, $apiKey);
+	$response = bpCurl('https://'.$network.'globee.com/api/invoice/'.$invoiceId, $apiKey);
 	if (is_string($response))
 		return $response; // error
 	$response['posData'] = json_decode($response['posData'], true);
